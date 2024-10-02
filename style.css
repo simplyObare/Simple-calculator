@@ -1,0 +1,85 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #363636;
+   display: grid;
+   place-items: center;
+   min-height: 100vh;
+}
+
+.main-container {
+   border: 1px solid #ccc;
+   border-radius: 20px;
+   width: 325px;
+}
+
+.screen {
+   width: 94%;
+   height: 100px;
+   border-radius: 10px;
+   background-color: rgba(186, 186, 186, 0.4);
+   color: white;
+   border: none;
+   margin: 10px;
+   padding: 10px;
+   text-align: right;
+   font-size: 3rem;
+}
+
+button {
+   height: 60px;
+   border-radius: 15px;
+   border: 1px solid #c4c4c4;
+   background-color: rgba(225, 225, 225, 0.4);
+   font-size: 2rem;
+   color: #f8f8f8;
+}
+
+button:hover {
+   background-color: rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+   background-color: rgba(186, 186, 186, 0.4);
+}
+
+.all-clear {
+   background-color: rgba(241, 115, 119, 0.8);
+   border-color: rgba(241, 115, 119, 0.8);
+}
+
+.all-clear:hover {
+   background-color: rgba(241, 115, 119, 1);
+}
+
+.all-clear:active {
+   background-color: rgba(0, 0, 0, 0.3);
+   border-color: rgba(0, 0, 0, 0.3);
+}
+
+.equal-sign {
+   height: 100%;
+   grid-area: 2/4/6/5;
+   background-color: rgba(78, 159, 212, 0.8);
+   border-color: rgba(78, 159, 212, 0.8);
+}
+
+.equal-sign:hover {
+   background-color: rgba(78, 159, 212, 1);
+}
+
+.equal-sign:active {
+   background-color: rgba(0, 0, 0, 0.3);
+   border-color: rgba(0, 0, 0, 0.3);
+}
+
+.keys {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 20px;
+   padding: 15px;
+}
